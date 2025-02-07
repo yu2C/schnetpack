@@ -1,3 +1,10 @@
+# Installation
+
+```bash
+conda env create -f environment.yaml
+pip install .
+```
+
 # SchNetPack - Deep Neural Networks for Atomistic Systems
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 [![](https://shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=303030)](https://github.com/hobogalaxy/lightning-hydra-template)

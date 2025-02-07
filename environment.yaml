@@ -1,0 +1,37 @@
+name: schnet_fhe_numpyfit
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - sympy
+  - ase>=3.21
+  - h5py
+  - pyyaml
+  - hydra-core>=1.1.0
+  - pytorch>=2.5.0
+  - pytorch-lightning>=2.0.0
+  - torchmetrics
+  - hydra-colorlog>=1.1.0
+  - rich
+  - fasteners
+  - dirsync
+  - torch-ema
+  - matscipy
+  - tensorboard>=2.17.1
+  - tensorboardX>=2.6.2.2
+  - tqdm
+  - pre-commit
+  - black
+  - protobuf
+  - pillow=9.4.0
+  - pip>=23
+  - pip:
+      - concrete-ml
+      - pytest
+      - pytest-datadir
+      - pytest-benchmark
+      - setuptools
+      - wheel
